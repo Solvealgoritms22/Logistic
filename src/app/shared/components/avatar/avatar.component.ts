@@ -1,13 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { SkeletonModule } from 'primeng/skeleton'; // Nuevo módulo
 
 @Component({
     selector: 'app-avatar',
     standalone: true,
     imports: [
         CommonModule,
-        ProgressSpinnerModule // Importamos el módulo de PrimeNG
+        ProgressSpinnerModule, // Puede quedarse si usas spinner en otros componentes
+        SkeletonModule // Importamos el módulo de skeleton
     ],
     templateUrl: './avatar.component.html',
     styleUrls: ['./avatar.component.scss']

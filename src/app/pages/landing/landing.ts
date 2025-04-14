@@ -6,23 +6,27 @@ import { StyleClassModule } from 'primeng/styleclass';
 import { ButtonModule } from 'primeng/button';
 import { DividerModule } from 'primeng/divider';
 import { HeroWidget } from './components/herowidget';
-import { FeaturesWidget } from './components/featureswidget';
-import { HighlightsWidget } from './components/highlightswidget';
-import { PricingWidget } from './components/pricingwidget';
+import { WeareWidget } from './components/wearewidget';
+import { LogisticWidget } from './components/logisticwidget';
+import { TestimonialWidget } from './components/testimonialwidget';
 import { FooterWidget } from './components/footerwidget';
+import { FeaturesWidget } from './components/featureswidget';
+import { SolutionsWidget } from './components/solutionswidget';
 
 @Component({
     selector: 'app-landing',
     standalone: true,
-    imports: [RouterModule, HeroWidget, FeaturesWidget, HighlightsWidget, PricingWidget, FooterWidget, RippleModule, StyleClassModule, ButtonModule, DividerModule],
+    imports: [RouterModule, SolutionsWidget, FeaturesWidget, HeroWidget, WeareWidget, LogisticWidget, TestimonialWidget, FooterWidget, RippleModule, StyleClassModule, ButtonModule, DividerModule, WeareWidget, TestimonialWidget],
     template: `
         <!-- Al aplicar clases 'bg-surface-0' y 'dark:bg-surface-900', el fondo cambiará según el modo -->
         <div class="bg-surface-0 dark:bg-surface-900">
-            <div id="home" class="landing-wrapper overflow-hidden">
+            <div id="home" class="overflow-hidden">
                 <hero-widget></hero-widget>
+                <weare-widget></weare-widget>
                 <features-widget></features-widget>
-                <highlights-widget></highlights-widget>
-                <pricing-widget></pricing-widget>
+                <logistic-widget></logistic-widget>
+                <testimonial-widget></testimonial-widget>
+                <solutions-widget></solutions-widget>
                 <footer-widget></footer-widget>
             </div>
         </div>
