@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 <div align="center">
-  <img src="src/assets/img/" alt="Logistic Platform" width="800"/>
+  <img src="src/assets/img/logistic.png" alt="Logistic Platform" width="800"/>
 </div>
 
 ## 📋 Índice
