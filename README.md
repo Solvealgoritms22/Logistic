@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 <div align="center">
-  <img src="src/assets/img/hero-background.jpg" alt="Logistic Platform" width="800"/>
+  <img src="src/assets/img/" alt="Logistic Platform" width="800"/>
 </div>
 
 ## 📋 Índice
@@ -176,9 +176,9 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE.md
 ---
 
 <div align="center">
-  <p>Desarrollado con ❤️ por el equipo de Logistic</p>
+  <p>Desarrollado con ❤️ por darling.dev</p>
   
-  <a href="https://github.com/tu-usuario/logistic">
-    <img src="https://img.shields.io/github/stars/tu-usuario/logistic?style=social" alt="GitHub stars">
+  <a href="https://github.com/Solvealgoritms22/logistic">
+    <img src="https://img.shields.io/github/stars/Solvealgoritms22/logistic?style=social" alt="GitHub stars">
   </a>
 </div>
